@@ -51,6 +51,7 @@ if (app.get('env') === 'development') {
 // production error handler
 //comment from Github web
 // no stacktraces leaked to user
+//comment in feature/1 branch
 app.use(function (err, req, res, next) {
     res.status(err.status || 500);
     res.render('error', {
